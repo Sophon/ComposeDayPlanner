@@ -1,4 +1,4 @@
-package com.example.dayplanner.domain
+package com.example.dayplanner.domain.data
 
 import java.io.Serializable
 

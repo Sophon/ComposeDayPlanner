@@ -1,4 +1,4 @@
-package com.example.dayplanner.domain
+package com.example.dayplanner.domain.data
 
 import java.io.Serializable
 
@@ -8,12 +8,6 @@ class Tasks(private val tasks: List<Task>): Serializable {
     fun getSecondHalf(): List<Task> = tasks.chunked(5)[1]
 
     fun getTaskById(taskId: Int): Task? {
-        tasks.forEach { task ->
-            if (task.Id == taskId) {
-                return task
-            }
-        }
-
-        return null
+        return tasks.firstOrNull { task -> task.Id == taskId }
     }
 }
