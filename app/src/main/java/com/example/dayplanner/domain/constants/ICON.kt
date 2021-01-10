@@ -1,6 +1,6 @@
 package com.example.dayplanner.domain.constants
 
-enum class ICONS {
+enum class ICON {
     FREE_TIME,
     BREAK,
     STUDY,

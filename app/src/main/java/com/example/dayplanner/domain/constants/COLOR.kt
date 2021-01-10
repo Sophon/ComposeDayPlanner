@@ -1,6 +1,6 @@
 package com.example.dayplanner.domain.constants
 
-enum class COLORS(val rgb: Long) {
+enum class COLOR(val rgb: Long) {
     DARK_BLUE(0xff1A237E),
     BURNT_ORANGE(0xffD84315),
     GREEN(0xff388E3c),
