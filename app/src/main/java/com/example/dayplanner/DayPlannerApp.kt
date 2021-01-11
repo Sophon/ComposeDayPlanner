@@ -2,7 +2,7 @@ package com.example.dayplanner
 
 import android.app.Application
 
-class DayPlanerApp: Application() {
+class DayPlannerApp: Application() {
 
     lateinit var serviceLocator: StorageServiceLocator
 

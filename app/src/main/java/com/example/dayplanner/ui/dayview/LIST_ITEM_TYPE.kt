@@ -11,7 +11,7 @@ package com.example.dayplanner.ui.dayview
 enum class LIST_ITEM_TYPE {
     FULL_HOUR,
     HALF_HALF,
-    QUARTER_QUARTER,
+    QUARTER_QUARTER_HALF,
     QUARTER_HALF_QUARTER,
     HALF_QUARTER_QUARTER,
     QUARTER_THREE_QUARTER,
