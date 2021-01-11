@@ -3,12 +3,20 @@
     package="com.example.dayplanner">
 
     <application
-        android:name=".DayPlanerApp"
+        android:name=".DayPlannerApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DayPlanner" />
+        android:theme="@style/Theme.DayPlanner">
+        <activity android:name=".ui.dayview.DayActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
 </manifest>
